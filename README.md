@@ -1,8 +1,8 @@
-# Trading_bot
+# trading_bot
 CLI-based Binance Futures Testnet trading bot with MARKET, LIMIT, and STOP orders.
 # Binance Futures Trading Bot (Testnet)
 
-## 📌 Overview
+##  Overview
 
 This project is a Python-based CLI trading bot that interacts with Binance Futures Testnet.
 It allows users to place MARKET, LIMIT, and STOP (conditional) orders using Binance APIs.
@@ -11,7 +11,7 @@ The application is designed with modular structure, input validation, logging, a
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Place MARKET orders (instant execution)
 * Place LIMIT orders (price-based execution)
@@ -23,7 +23,7 @@ The application is designed with modular structure, input validation, logging, a
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 trading_bot/
@@ -43,7 +43,7 @@ trading_bot/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the repository
 
@@ -82,7 +82,7 @@ api_secret = "YOUR_SECRET_KEY"
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### 🔹 MARKET Order
 
@@ -104,7 +104,7 @@ python cli.py --symbol BTCUSDT --side SELL --type STOP --quantity 0.01 --price 5
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 ```
 ORDER SUCCESS
@@ -125,7 +125,7 @@ Trigger Price: 59000
 
 ---
 
-## 📜 Logging
+##  Logging
 
 All logs are stored in:
 
@@ -148,7 +148,7 @@ Example:
 
 ---
 
-## ⚠️ Assumptions
+##  Assumptions
 
 * Uses Binance Futures Testnet only (no real money involved)
 * API keys are valid and correctly configured
@@ -156,7 +156,7 @@ Example:
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 * Python 3.x
 * python-binance
@@ -165,7 +165,7 @@ Example:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This project demonstrates API integration, modular code design, CLI development, and handling of real-world trading workflows using Binance Futures Testnet.
 
